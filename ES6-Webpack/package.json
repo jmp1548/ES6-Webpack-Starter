@@ -1,5 +1,5 @@
 {
-  "name": "InBev",
+  "name": "Starter",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -26,7 +26,6 @@
     "express": "^4.14.1",
     "extract-text-webpack-plugin": "^1.0.1",
     "file-loader": "^0.10.0",
-    "hammerjs": "^2.0.8",
     "imports-loader": "^0.7.0",
     "node-sass": "^4.4.0",
     "sass-loader": "^4.1.1",
