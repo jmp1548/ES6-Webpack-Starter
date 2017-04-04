@@ -1,0 +1,40 @@
+# File Options
+files:
+  include:
+    - './src/stylesheets/**/*.scss'
+    - './src/stylesheets/**/**/*.scss'
+  ignore:
+    - './src/stylesheets/vendor/*.scss'
+    - './src/stylesheets/vendor/**/*.scss'
+    - './src/stylesheets/vendor/**/**/*.scss'
+
+# Rule Configuration
+rules:
+  border-zero:
+    - 2
+    -
+      convention: 0
+  declarations-before-nesting: 2
+  leading-zero: 0
+  property-sort-order:
+    - 2
+    -
+      order: smacss
+  single-line-per-selector: 2
+  quotes:
+    - 2
+    -
+      style: double
+  indentation:
+    - 2
+    -
+      size: 4
+  pseudo-element: 2
+  no-vendor-prefixes: 0
+
+  # Name Formats
+  class-name-format: 2
+  function-name-format: 2
+  mixin-name-format: 2
+  placeholder-name-format: 2
+  variable-name-format: 2

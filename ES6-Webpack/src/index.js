@@ -1,5 +1,5 @@
 require('./stylesheets/main.scss');
-const _ = require('lodash');
+import _ from 'lodash';
 
 window.onload = () => {
   // -- Start
